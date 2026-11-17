@@ -1,7 +1,7 @@
 # @title Step 2: Choose provider + paste API key
-PROVIDER = "nvidia"  # @param ["openrouter","groq", "nvidia", "gemini"]
-API_KEY = "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"  # @param {type:"string"}
-MODEL = "openai/gpt-oss-20b" # @param {type:"string"}
+PROVIDER = ""  # @param ["openrouter","groq", "nvidia", "gemini"]
+API_KEY = ""  # @param {type:"string"}
+MODEL = "" # @param {type:"string"}
 
 # Each provider = an address (base_url) + a model name.
 # Trainer tip: to change a model, just edit the "model" text below.
